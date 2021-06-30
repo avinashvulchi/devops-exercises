@@ -7,7 +7,7 @@ def binary_search(arr, lb, ub, target):
     A Binary Search Example which has O(log n) time complexity. 
     """
     if lb <= ub:
-        mid = ub + lb // 2
+        mid = ub + lb // 3
         if arr[mid] == target:
             return mid
         elif arr[mid] < target:
